@@ -9,12 +9,12 @@ import tacos.entities.User;
 import tacos.repositories.UserRepository;
 
 @Service
-public class UserRepositoryUserDetaulsService implements UserDetailsService {
+public class UserServiceImpl implements UserDetailsService {
 
 	private UserRepository userRepository;
 
 	@Autowired
-	public UserRepositoryUserDetaulsService(UserRepository userRepository) {
+	public UserServiceImpl(UserRepository userRepository) {
 		this.userRepository = userRepository;
 	}
 
