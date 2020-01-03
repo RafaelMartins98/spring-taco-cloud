@@ -15,4 +15,17 @@ server:
 taco:
   orders:
     pageSize: 4
+
+
+---
+
+spring:
+   profiles: prod
+   
+   datasource:
+      url: <mysql-db-url>
+      username: <mysql-db-username>
+      password: <mysql-db-password>
+      
+ 
  

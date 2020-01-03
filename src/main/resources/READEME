@@ -1,1 +1,13 @@
 H2 connection URL : jdbc:h2:mem:testdb
+
+Set profile: 
+	
+	In case of single machine instance:
+		
+			export SPRING_PROFILES_ACTIVE=prod
+			
+			export SPRING_PROFILES_ACTIVE=prod,audit,ha
+		
+	In case of multiple machine instances:
+		
+			java -jar taco-cloud.jar --spring.profiles.active=prod
