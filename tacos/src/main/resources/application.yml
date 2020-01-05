@@ -12,9 +12,6 @@ taco:
     codes:
       abcdef: 10
       
-#logging:
-#  level:
-#    org.springframework.data.rest: debug
 
 spring:
   data:

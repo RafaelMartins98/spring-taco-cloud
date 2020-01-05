@@ -62,6 +62,11 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+
+		<dependency>
 			<!-- Lombok extension should be added to your IDE so you don't get any 
 				java warnings/errors related with it -->
 			<groupId>org.projectlombok</groupId>
