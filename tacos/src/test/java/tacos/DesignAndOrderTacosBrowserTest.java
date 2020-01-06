@@ -24,7 +24,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-@Ignore("Ignore for now...deal with security implications in tests.")
+@Ignore("Address security implications in tests later.")
 public class DesignAndOrderTacosBrowserTest {
   
   private static HtmlUnitDriver browser;
