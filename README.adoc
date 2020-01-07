@@ -18,23 +18,6 @@ Once the project is built, you can run the executable JAR file from the `tacos` 
 
 Once the application has started, open your web browser and navigate to http://localhost:8080 to see the Taco Cloud home page.
 
-== Kicking the tires
-
-As mentioned above, not all of the Taco Cloud application is fully functional (yet). But the components that pertain to the topic of Chapter 6, defining a REST API, should be in place.
-
-From the home page, you should be able to view some recently created tacos by clicking on "Latest designs" link at the top. The "Specials" and "Locations" links will navigate to their respective pages, but those pages are (for now) empty.
-
-Click the "DESIGN A TACO" link to create a taco and ultimately create an order. You can view the contents of your shopping cart by clicking on the cart/price at the top right.
-
-=== What's missing/broken...
-
-The three most prominent pieces that still need to be fixed are:
-
- - Security isn't working yet, so there's no login page.
- - Likewise, there's not yet any way to register.
-
-These will be certainly be sorted out eventually, but priority was placed on writing code that demonstrated the subject of Chapter 6.
-
 == Taco Cloud modules
 
 The multi-module Maven project is made up of the following modules:
